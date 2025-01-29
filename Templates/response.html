@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forage ChatBot Response</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="response-container">
+      <h1>ChatBot Response</h1>
+      <p>{{ text }}</p>
+      {% if image %}
+      <img src="{{ url_for('static', filename=image) }}" alt="Chart" />
+      {% endif %}
+      <br /><br />
+      <a href="/">Go back to the home page</a>
+    </div>
+  </body>
+</html>

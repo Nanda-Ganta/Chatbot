@@ -1,0 +1,5 @@
+Company,Total Revenue,Total Revenue,Net Income,Net Income,Total Assets,Total Liabilities,Cash Flow from Operating Activities
+Metric,sum,mean,sum,mean,mean,mean,sum
+Apple,1144.08,381.36,291.38,97.13,351.5866667,298.3333333,336.19
+Microsoft,578.28,192.76,209.00,69.66666667,365.92,195.1966667,261.36
+Tesla,232.05,77.35,33.07,11.02333333,83.69666667,33.54666667,39.48
